@@ -5,9 +5,9 @@ based on https://angular.io/docs/js/latest/quickstart.html
 
 1. `npm install`
 
-2. `tsd reinstall -r -o`
+2. `npm install -g http-server typescript tsd`
 
-3. `npm install -g http-server typescript`
+3. `tsd reinstall -r -o`
 
 4. `tsc -p . -w` to compile with typescript and watch
 
