@@ -7,7 +7,7 @@ based on https://angular.io/docs/js/latest/quickstart.html
 
 2. `tsd reinstall -r -o`
 
-3. `tsc -p .` to compile with typescript
+3. `tsc -p ./src` to compile with typescript
 
 4. open a new tab and run `http-server`
 
