@@ -3,11 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
-  "dependencies": {
-    "angular2": "^2.0.0-alpha.35",
-    "systemjs": "^0.18.11",
-    "typescript": "^1.5.3"
-  },
+  "dependencies": {},
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
