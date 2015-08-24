@@ -8,23 +8,34 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-var angular2_1 = require('angular2/angular2');
-// Annotation section
-var MyAppComponent = (function () {
-    function MyAppComponent() {
-        this.name = 'Alice';
+};System.register(['angular2/angular2'], function(exports_1) {
+    var angular2_1;
+    var MyAppComponent;
+    return {
+        setters:[
+            function (_angular2_1) {
+                angular2_1 = _angular2_1;
+            }],
+        execute: function() {
+            // Annotation section
+            MyAppComponent = (function () {
+                function MyAppComponent() {
+                    this.name = 'Alice';
+                }
+                MyAppComponent = __decorate([
+                    angular2_1.Component({
+                        selector: 'my-app'
+                    }),
+                    angular2_1.View({
+                        template: '<h1>Hello {{ name }}</h1>'
+                    }), 
+                    __metadata('design:paramtypes', [])
+                ], MyAppComponent);
+                return MyAppComponent;
+            })();
+            exports_1("MyAppComponent", MyAppComponent);
+            angular2_1.bootstrap(MyAppComponent);
+        }
     }
-    MyAppComponent = __decorate([
-        angular2_1.Component({
-            selector: 'my-app'
-        }),
-        angular2_1.View({
-            template: '<h1>Hello {{ name }}</h1>'
-        }), 
-        __metadata('design:paramtypes', [])
-    ], MyAppComponent);
-    return MyAppComponent;
-})();
-angular2_1.bootstrap(MyAppComponent);
+});
 //# sourceMappingURL=app.js.map

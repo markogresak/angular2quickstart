@@ -8,7 +8,7 @@ import {Component, View, bootstrap} from 'angular2/angular2';
     template: '<h1>Hello {{ name }}</h1>'
 })
 // Component controller
-class MyAppComponent {
+export class MyAppComponent {
     name: string;
     constructor() {
         this.name = 'Alice';
