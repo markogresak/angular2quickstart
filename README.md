@@ -3,12 +3,8 @@ based on https://angular.io/docs/js/latest/quickstart.html
 
 ## quick start
 
-1. `npm install -g http-server typescript tsd`
+1. `npm install`
 
-2. `tsd reinstall -r -o`
-
-3. `tsc -p ./src` to compile with typescript
-
-4. open a new tab and run `http-server`
+2. `npm start` to compile with typescript and run the server
 
 5. browse to <http://localhost:8080/index.html>
