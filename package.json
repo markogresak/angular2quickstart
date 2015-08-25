@@ -10,6 +10,9 @@
     "typescript": "^1.5.3"
   },
   "scripts": {
+    "postinstall": "node_modules/.bin/tsd reinstall -ro",
+    "build": "node_modules/.bin/tsc -p ./src",
+    "start": "npm run build && http-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "John Papa <john@johnpapa.net> (http://johnpapa.net/)",
