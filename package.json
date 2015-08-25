@@ -25,7 +25,7 @@
       "zone.js": "npm:zone.js@^0.5.3"
     },
     "devDependencies": {
-      "typescript": "npm:typescript@1.5"
+      "typescript": "npm:typescript@^1.5.3"
     }
   }
 }
