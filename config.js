@@ -1,20 +1,21 @@
 System.config({
-  baseURL: "/",
-  defaultJSExtensions: true,
-  transpiler: "typescript",
-  paths: {
+  "baseURL": "/",
+  "defaultJSExtensions": true,
+  "transpiler": "typescript",
+  "paths": {
     "github:*": "jspm_packages/github/*",
     "npm:*": "jspm_packages/npm/*"
   },
-
-  packages: {
+  "packages": {
     "src": {
       "app": "app",
       "defaultExtension": "ts"
     }
-  },
+  }
+});
 
-  map: {
+System.config({
+  "map": {
     "angular2": "npm:angular2@2.0.0-alpha.35",
     "es6-shim": "github:es-shims/es6-shim@0.33.1",
     "immutable": "npm:immutable@3.7.4",
@@ -283,3 +284,4 @@ System.config({
     }
   }
 });
+
