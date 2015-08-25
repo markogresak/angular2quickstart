@@ -8,11 +8,14 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};System.register(['angular2/angular2'], function(exports_1) {
+};System.register(['zone.js', 'reflect-metadata', 'es6-shim', 'angular2/angular2'], function(exports_1) {
     var angular2_1;
     var MyAppComponent;
     return {
         setters:[
+            function (_) {},
+            function (_) {},
+            function (_) {},
             function (_angular2_1) {
                 angular2_1 = _angular2_1;
             }],

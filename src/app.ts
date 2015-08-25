@@ -1,3 +1,7 @@
+import 'zone.js';
+import 'reflect-metadata';
+import 'es6-shim';
+
 import {Component, View, bootstrap} from 'angular2/angular2';
 
 // Annotation section

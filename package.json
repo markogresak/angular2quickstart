@@ -2,12 +2,30 @@
   "name": "ng2quick",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
-  "dependencies": {},
-  "devDependencies": {},
+  "main": "src/app.js",
+  "dependencies": {
+    "immutable": "^3.7.4"
+  },
+  "devDependencies": {
+    "jspm": "^0.16.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "John Papa <john@johnpapa.net> (http://johnpapa.net/)",
-  "license": "ISC"
+  "license": "ISC",
+  "jspm": {
+    "directories": {},
+    "dependencies": {
+      "angular2": "npm:angular2@^2.0.0-alpha.35",
+      "es6-shim": "github:es-shims/es6-shim@^0.33.1",
+      "immutable": "npm:immutable@^3.7.4",
+      "reflect-metadata": "npm:reflect-metadata@^0.1.0",
+      "text": "github:systemjs/plugin-text@^0.0.2",
+      "zone.js": "npm:zone.js@^0.5.3"
+    },
+    "devDependencies": {
+      "typescript": "npm:typescript@1.5"
+    }
+  }
 }
