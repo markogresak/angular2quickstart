@@ -3,7 +3,7 @@
   "repo": "borisyankov/DefinitelyTyped",
   "ref": "master",
   "path": "typings",
-  "bundle": "typings/tsd.d.ts",
+  "bundle": "src/typings/tsd.d.ts",
   "installed": {
     "es6-promise/es6-promise.d.ts": {
       "commit": "af81415504b4edce8dac8446d96857f8018c6e9f"
