@@ -18,11 +18,8 @@ System.config({
   "map": {
     "angular2": "npm:angular2@2.0.0-alpha.35",
     "es6-shim": "github:es-shims/es6-shim@0.33.1",
-    "immutable": "npm:immutable@3.7.4",
     "reflect-metadata": "npm:reflect-metadata@0.1.0",
-    "text": "github:systemjs/plugin-text@0.0.2",
     "typescript": "npm:typescript@1.5.3",
-    "zone.js": "npm:zone.js@0.5.3",
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"
     },
